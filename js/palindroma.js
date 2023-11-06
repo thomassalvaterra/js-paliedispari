@@ -16,7 +16,7 @@ console.log(parolaCapovolta);
 const parolaInvertita = parolaCapovolta.join("");
 console.log(parolaInvertita);
 
-//confronto la p0arola iniziale con quella invertita (Palindroma o no?)
+//confronto la parola iniziale con quella invertita (Palindroma o no?)
 if(parola == parolaInvertita){
     console.log ("Parola palindroma");
 }else {
