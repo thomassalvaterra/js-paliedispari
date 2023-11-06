@@ -14,24 +14,21 @@ const numero = parseInt( prompt("Inserisci un numero da 1  a 5") );
 let risultato = pariOrDispari(numero);
 console.log("Il tuo numero è " + risultato);
 
-// function getRndInteger(min, max) {
-//     return Math.floor(Math.random() * (max - min + 1) ) + min;
-//  }
+let casualNumber = getUnNumero();
 
-// let numeri;
-
-// function getUnNumero() {
-//     const numero = getRndInteger(1, 5);
-//     numeri.push( numero );
-//     return numeri;
-// }
-
-//  let ilMioNumero = getUnNumero();
-//  console.log("Numero generato: ", ilMioNumero );
+function getRndInteger(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
 
 function getUnNumero() {
     const numero = getRndInteger(1, 5);
     console.log(numero);
-    numeri.push( numero );
+    let numeri = "";
     return numeri;
 }
+
+function somma(numero, numeri) {
+    return (numero+numeri);
+}
+
+ console.log( somma(numero, numeri) );
