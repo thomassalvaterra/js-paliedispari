@@ -23,3 +23,31 @@ if(parola == parolaInvertita){
     console.log("Parola non palindroma");
 }
 
+
+
+//ALTRO MODO PER INVERTIRE UNA STRINGA CON IL CICLO FOR
+
+// let parolaInvertita = "";
+
+// for (let i = parola.length-1; i >= 0; i--) {
+//     console.log( parola [i] );
+//     parolaInvertita += parola[i]; 
+// }
+
+
+
+
+//ALTRO MODO PER INVERTIRE UNA STRINGA CON UNA FUNZIONE
+
+// let parolaInvertita = giraParola(parola);
+
+// function giraParola(parola) {
+//     let parolaInvertita = "";
+
+//     for (let i = parola.length-1; i >= 0; i--) {
+//         console.log( parola [i] );
+//         parolaInvertita += parola[i]; 
+//     }
+
+//     return parolaInvertita;
+// }
